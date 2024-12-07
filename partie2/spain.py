@@ -1,3 +1,6 @@
+# script pour charger tous les fichiers concernant l espagne depuis le site inside airbnb
+# le script est factorisé et les differentes fonctions sont commentées a l aide de docstrings
+
 from azure.storage.blob import BlobServiceClient, generate_container_sas, ContainerSasPermissions
 from azure.keyvault.secrets import SecretClient
 from azure.identity import ClientSecretCredential
